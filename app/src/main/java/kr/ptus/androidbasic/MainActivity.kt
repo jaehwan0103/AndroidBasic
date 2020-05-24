@@ -27,5 +27,18 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        goToThirdBtn.setOnClickListener {
+
+            val inputContent = phoneNum.text.toString()
+
+            val thirdIntent = Intent(this, ThirdActivity::class.java)
+
+            thirdIntent.putExtra("number", inputContent)
+
+            startActivity(thirdIntent)
+
+        }
+
+
     }
 }
