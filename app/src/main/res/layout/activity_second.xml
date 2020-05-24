@@ -6,21 +6,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/secondTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Activity"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
 
     <Button
-        android:id="@+id/goToFirstBtn"
+        android:id="@+id/comeBack2Btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="First Activity"/>
-
-    <Button
-        android:id="@+id/goToSecondBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Second Activity"/>
-
-
-
+        android:text="Come Back"/>
 
 </LinearLayout>
